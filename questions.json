@@ -1,0 +1,1861 @@
+[
+  {
+    "id": 1,
+    "level": 1,
+    "question": "You receive an email from 'bank-alerts@secureupdate.com' asking you to confirm your password. Is this legitimate?",
+    "options": ["Yes", "No"],
+    "answer": "No",
+    "explanation": "Banks never ask for sensitive information like passwords via email."
+  },
+  {
+    "id": 2,
+    "level": 1,
+    "question": "The email you received says 'Urgent: Your account will be locked!' and asks you to click a link. What should you do?",
+    "options": ["Click the link", "Ignore and report it"],
+    "answer": "Ignore and report it",
+    "explanation": "Urgent language and threats are common phishing tactics."
+  },
+  {
+    "id": 3,
+    "level": 1,
+    "question": "A message from 'admin@goog1e.com' claims you’ve won a prize. What should you check first?",
+    "options": ["The sender’s email domain", "The prize details"],
+    "answer": "The sender’s email domain",
+    "explanation": "‘goog1e.com’ is a spoofed domain using the number ‘1’ instead of the letter ‘l’."
+  },
+  {
+    "id": 4,
+    "level": 1,
+    "question": "Is it safe to download an attachment from someone you don’t know?",
+    "options": ["Yes", "No"],
+    "answer": "No",
+    "explanation": "Attachments from unknown senders could contain malware."
+  },
+  {
+    "id": 5,
+    "level": 1,
+    "question": "You receive a text message saying ‘Click here to claim your free gift card.’ What should you do?",
+    "options": ["Click the link", "Delete the message"],
+    "answer": "Delete the message",
+    "explanation": "This is a common smishing (SMS phishing) tactic."
+  },
+  {
+    "id": 6,
+    "level": 1,
+    "question": "A pop-up appears saying you’ve won an iPhone. Is this likely a phishing attempt?",
+    "options": ["Yes", "No"],
+    "answer": "Yes",
+    "explanation": "Fake prizes are commonly used to steal personal information."
+  },
+  {
+    "id": 7,
+    "level": 1,
+    "question": "You receive a friend request on social media from someone claiming to be a company support agent. What should you do?",
+    "options": ["Accept it", "Verify through official channels"],
+    "answer": "Verify through official channels",
+    "explanation": "Support agents don’t usually contact users via social media."
+  },
+  {
+    "id": 8,
+    "level": 1,
+    "question": "What is the safest way to verify a suspicious email link?",
+    "options": ["Hover over the link to preview the URL", "Click it to see what it opens"],
+    "answer": "Hover over the link to preview the URL",
+    "explanation": "Previewing lets you spot suspicious domains before clicking."
+  },
+  {
+    "id": 9,
+    "level": 1,
+    "question": "What does 'https://' at the beginning of a URL indicate?",
+    "options": ["That it's always safe", "That the connection is encrypted"],
+    "answer": "That the connection is encrypted",
+    "explanation": "HTTPS encrypts traffic but does not guarantee a trustworthy site."
+  },
+  {
+    "id": 10,
+    "level": 1,
+    "question": "You get an email from IT asking you to reset your password via a link. What's the best next step?",
+    "options": ["Click the link", "Contact IT through official channels"],
+    "answer": "Contact IT through official channels",
+    "explanation": "Always verify unusual requests with your IT department."
+  },
+  {
+    "id": 11,
+    "level": 1,
+    "question": "An email from a coworker contains just a link and no context. What should you do?",
+    "options": ["Click the link", "Verify with the coworker directly"],
+    "answer": "Verify with the coworker directly",
+    "explanation": "Phishing emails often impersonate known contacts with vague messages."
+  },
+  {
+    "id": 12,
+    "level": 1,
+    "question": "You get an email from 'amazon-help@delivery-updates.com' asking to update your address. Legit?",
+    "options": ["Yes", "No"],
+    "answer": "No",
+    "explanation": "Always check the sender's domain. This is not an official Amazon domain."
+  },
+  {
+    "id": 13,
+    "level": 1,
+    "question": "Why should you avoid clicking shortened URLs (e.g., bit.ly) in emails from strangers?",
+    "options": ["They might redirect to malicious websites", "They're just annoying"],
+    "answer": "They might redirect to malicious websites",
+    "explanation": "Shortened links can mask dangerous destinations."
+  },
+  {
+    "id": 14,
+    "level": 1,
+    "question": "You receive an unexpected invoice attachment from an unknown sender. What should you do?",
+    "options": ["Open the invoice", "Do not open and report it"],
+    "answer": "Do not open and report it",
+    "explanation": "It could be a phishing attempt containing malware."
+  },
+  {
+    "id": 15,
+    "level": 1,
+    "question": "The message says your system is infected and you must call a support number. What's your move?",
+    "options": ["Call the number", "Ignore and scan your system using trusted tools"],
+    "answer": "Ignore and scan your system using trusted tools",
+    "explanation": "Tech support scams often use fake warnings to get victims to call them."
+  },
+  {
+    "id": 16,
+    "level": 1,
+    "question": "Which of the following is a red flag in a potential phishing email?",
+    "options": ["Spelling errors", "Professional tone"],
+    "answer": "Spelling errors",
+    "explanation": "Phishing emails often contain poor grammar and spelling mistakes."
+  },
+  {
+    "id": 17,
+    "level": 1,
+    "question": "What should you do if you accidentally clicked a suspicious link?",
+    "options": ["Ignore it", "Disconnect from the internet and report it immediately"],
+    "answer": "Disconnect from the internet and report it immediately",
+    "explanation": "Acting quickly may help prevent data theft or malware spread."
+  },
+  {
+    "id": 18,
+    "level": 1,
+    "question": "Your friend sends a weird message on social media with a link. What's the safest response?",
+    "options": ["Click the link", "Ask them if they sent it"],
+    "answer": "Ask them if they sent it",
+    "explanation": "Hackers often hijack accounts to send malicious links."
+  },
+  {
+    "id": 19,
+    "level": 1,
+    "question": "A job offer email asks you to fill in a form with your bank details. Legit or phishing?",
+    "options": ["Legit", "Phishing"],
+    "answer": "Phishing",
+    "explanation": "Legitimate employers never request sensitive info via email."
+  },
+  {
+    "id": 20,
+    "level": 1,
+    "question": "A fake browser update popup appears while you browse. What do you do?",
+    "options": ["Install it", "Close the tab and update through official browser settings"],
+    "answer": "Close the tab and update through official browser settings",
+    "explanation": "Malware is often disguised as fake browser or plugin updates."
+  },
+  {
+    "id": 21,
+    "level": 1,
+    "question": "Why is it risky to use the same password across multiple accounts?",
+    "options": ["Convenience", "One compromised account can lead to others being hacked"],
+    "answer": "One compromised account can lead to others being hacked",
+    "explanation": "Credential stuffing is a common attack method using reused passwords."
+  },
+  {
+    "id": 22,
+    "level": 1,
+    "question": "What does a padlock icon in the browser address bar mean?",
+    "options": ["The site is safe to enter any information", "The connection is encrypted"],
+    "answer": "The connection is encrypted",
+    "explanation": "It doesn't guarantee the website is trustworthy."
+  },
+  {
+    "id": 23,
+    "level": 1,
+    "question": "A message claims you must act 'immediately' or your account will be deactivated. What’s that called?",
+    "options": ["Normal business urgency", "Urgency scam"],
+    "answer": "Urgency scam",
+    "explanation": "Phishing emails often use fake urgency to pressure victims."
+  },
+  {
+    "id": 24,
+    "level": 1,
+    "question": "You notice an extra letter in a URL, like 'www.paypaal.com'. What is this an example of?",
+    "options": ["URL masking", "Typosquatting"],
+    "answer": "Typosquatting",
+    "explanation": "Scammers register lookalike domains to trick users."
+  },
+  {
+    "id": 25,
+    "level": 1,
+    "question": "What is the best first action when you suspect an email is a phishing attempt?",
+    "options": ["Report it to IT/security", "Reply to the sender to confirm"],
+    "answer": "Report it to IT/security",
+    "explanation": "Reporting helps prevent others from falling for the same attack."
+  },
+  {
+    "id": 26,
+    "level": 1,
+    "question": "An email from 'Microsoft Support' asks for remote access to your computer. What should you do?",
+    "options": ["Allow access", "Refuse and report the email"],
+    "answer": "Refuse and report the email",
+    "explanation": "Legitimate companies never ask for unsolicited remote access."
+  },
+  {
+    "id": 27,
+    "level": 1,
+    "question": "You get an SMS that says your package is delayed and links to a strange tracking site. What do you do?",
+    "options": ["Click the link", "Check tracking only on the official site"],
+    "answer": "Check tracking only on the official site",
+    "explanation": "Always verify with official carrier websites, not unknown links."
+  },
+  {
+    "id": 28,
+    "level": 1,
+    "question": "Your antivirus alerts you that a website is dangerous. What should you do?",
+    "options": ["Ignore and continue", "Exit the website immediately"],
+    "answer": "Exit the website immediately",
+    "explanation": "Ignore such warnings only if you trust the source, otherwise exit right away."
+  },
+  {
+    "id": 29,
+    "level": 1,
+    "question": "You see a pop-up that says you've won a new iPhone. What's the best action?",
+    "options": ["Click to claim", "Close the pop-up"],
+    "answer": "Close the pop-up",
+    "explanation": "Such messages are typical phishing or scam lures."
+  },
+  {
+    "id": 30,
+    "level": 1,
+    "question": "Why shouldn't you trust attachments from unknown senders?",
+    "options": ["They could be boring", "They might contain malware"],
+    "answer": "They might contain malware",
+    "explanation": "Phishing emails often use attachments to deliver malware."
+  },
+  {
+    "id": 31,
+    "level": 1,
+    "question": "A link in your email says it's from PayPal, but the address bar reads 'paypa1.com'. What is this?",
+    "options": ["A test page", "A phishing site"],
+    "answer": "A phishing site",
+    "explanation": "It’s a lookalike (typosquatting) domain designed to deceive you."
+  },
+  {
+    "id": 32,
+    "level": 1,
+    "question": "Why is clicking on urgent messages like 'Verify your account now!' risky?",
+    "options": ["They are fast", "They often lead to phishing sites"],
+    "answer": "They often lead to phishing sites",
+    "explanation": "Scammers create urgency to provoke quick, unthinking actions."
+  },
+  {
+    "id": 33,
+    "level": 1,
+    "question": "What’s the safest way to confirm if an email is legitimate?",
+    "options": ["Call the number in the email", "Visit the official site directly"],
+    "answer": "Visit the official site directly",
+    "explanation": "Avoid using links or contact info inside suspicious emails."
+  },
+  {
+    "id": 34,
+    "level": 1,
+    "question": "You received a job offer from a company you've never heard of asking for your personal details. Is this okay?",
+    "options": ["Yes", "No"],
+    "answer": "No",
+    "explanation": "Phishing often impersonates recruiters to gather sensitive info."
+  },
+  {
+    "id": 35,
+    "level": 1,
+    "question": "You get an email from 'support@apple-help-services.com'. Is this likely legit?",
+    "options": ["Yes", "No"],
+    "answer": "No",
+    "explanation": "Official Apple support emails use verified apple.com domains."
+  },
+  {
+    "id": 36,
+    "level": 1,
+    "question": "Your email provider flags a message as 'Suspicious'. What should you do?",
+    "options": ["Open it to see why", "Delete or report it"],
+    "answer": "Delete or report it",
+    "explanation": "Trust your provider’s filter and don’t engage with flagged content."
+  },
+  {
+    "id": 37,
+    "level": 1,
+    "question": "You click a link and it asks for your email password. What's the correct action?",
+    "options": ["Enter it", "Close the page immediately"],
+    "answer": "Close the page immediately",
+    "explanation": "Never enter your credentials on unknown or suspicious sites."
+  },
+  {
+    "id": 38,
+    "level": 1,
+    "question": "Why do scammers spoof email addresses?",
+    "options": ["To trick spam filters", "To make their message appear trustworthy"],
+    "answer": "To make their message appear trustworthy",
+    "explanation": "Spoofing helps phishing emails bypass suspicion."
+  },
+  {
+    "id": 39,
+    "level": 1,
+    "question": "How often should you change your email password?",
+    "options": ["Never", "Regularly, especially if you suspect phishing"],
+    "answer": "Regularly, especially if you suspect phishing",
+    "explanation": "Changing passwords reduces the damage of potential phishing."
+  },
+  {
+    "id": 40,
+    "level": 1,
+    "question": "What is two-factor authentication (2FA) useful for?",
+    "options": ["Slowing login", "Protecting accounts even if password is stolen"],
+    "answer": "Protecting accounts even if password is stolen",
+    "explanation": "2FA adds a second layer of defense against phishing."
+  },
+  {
+    "id": 41,
+    "level": 1,
+    "question": "A pop-up tells you your antivirus is expired and to download a new one. What do you do?",
+    "options": ["Download it immediately", "Verify from your antivirus app"],
+    "answer": "Verify from your antivirus app",
+    "explanation": "Always go to official apps or websites instead of clicking pop-ups."
+  },
+  {
+    "id": 42,
+    "level": 1,
+    "question": "Which is safer when logging into your bank?",
+    "options": ["Clicking an email link", "Typing the bank URL manually"],
+    "answer": "Typing the bank URL manually",
+    "explanation": "Manual typing avoids malicious redirects from phishing emails."
+  },
+  {
+    "id": 43,
+    "level": 1,
+    "question": "What does HTTPS in a URL mean?",
+    "options": ["Site is 100% safe", "Connection is encrypted"],
+    "answer": "Connection is encrypted",
+    "explanation": "HTTPS encrypts traffic but doesn’t always mean the site is safe."
+  },
+  {
+    "id": 44,
+    "level": 1,
+    "question": "You receive an unexpected calendar invite with a link. What should you do?",
+    "options": ["Click to see who invited you", "Be cautious and verify the sender"],
+    "answer": "Be cautious and verify the sender",
+    "explanation": "Phishing can come via calendar invites too."
+  },
+  {
+    "id": 45,
+    "level": 1,
+    "question": "What is phishing?",
+    "options": ["A scam to trick people into giving up info", "A way to improve productivity"],
+    "answer": "A scam to trick people into giving up info",
+    "explanation": "Phishing is a cybercrime using deception to obtain private data."
+  },
+  {
+    "id": 46,
+    "level": 1,
+    "question": "Which of these is safest to click?",
+    "options": ["Link from unknown number", "Verified link from known source"],
+    "answer": "Verified link from known source",
+    "explanation": "Always verify links—even from familiar names."
+  },
+  {
+    "id": 47,
+    "level": 1,
+    "question": "You get a notification that your Apple ID was used in another country. What do you do?",
+    "options": ["Click the email link", "Go directly to your Apple account to verify"],
+    "answer": "Go directly to your Apple account to verify",
+    "explanation": "Use direct login, not the potentially fake link."
+  },
+  {
+    "id": 48,
+    "level": 1,
+    "question": "Why are fake job scams used for phishing?",
+    "options": ["To offer real jobs", "To steal data like SSNs and bank info"],
+    "answer": "To steal data like SSNs and bank info",
+    "explanation": "Fake job scams lure victims with offers to steal sensitive data."
+  },
+  {
+    "id": 49,
+    "level": 1,
+    "question": "What is one way to verify a suspicious email?",
+    "options": ["Click reply and ask", "Check the sender's domain and grammar"],
+    "answer": "Check the sender's domain and grammar",
+    "explanation": "Inconsistencies in domain or language often indicate phishing."
+  },
+  {
+    "id": 50,
+    "level": 1,
+    "question": "An app asks for unnecessary permissions (like access to your SMS). Is that a red flag?",
+    "options": ["No", "Yes"],
+    "answer": "Yes",
+    "explanation": "Unusual permission requests can indicate malicious intent."
+  },
+  {
+    "id": 101,
+    "level": 2,
+    "question": "You receive an email from your company CEO asking you to buy gift cards urgently. The email looks genuine. What should you do?",
+    "options": ["Reply and follow instructions", "Verify the request via another channel"],
+    "answer": "Verify the request via another channel",
+    "explanation": "Spear phishing often impersonates executives to pressure employees into urgent actions."
+  },
+  {
+    "id": 102,
+    "level": 2,
+    "question": "You are redirected to a login page that looks identical to your bank's website. What’s the best way to confirm authenticity?",
+    "options": ["Check if it loads fast", "Verify the URL carefully"],
+    "answer": "Verify the URL carefully",
+    "explanation": "Lookalike domains are commonly used in phishing attacks."
+  },
+  {
+    "id": 103,
+    "level": 2,
+    "question": "An email comes from 'security@yourbank-support.com' requesting you to reset your password. What’s suspicious?",
+    "options": ["Use of support domain", "Missing company logo"],
+    "answer": "Use of support domain",
+    "explanation": "Phishers use similar-looking but unofficial domains to trick victims."
+  },
+  {
+    "id": 104,
+    "level": 2,
+    "question": "A text message claims a suspicious login was detected. You’re asked to tap a link to verify your identity. What's the best action?",
+    "options": ["Click to verify", "Access your account via the official app"],
+    "answer": "Access your account via the official app",
+    "explanation": "Never click on suspicious SMS links. Use official apps or websites."
+  },
+  {
+    "id": 105,
+    "level": 2,
+    "question": "Which of these is a sign of a phishing site?",
+    "options": ["HTTPS padlock", "Misspelled domain name"],
+    "answer": "Misspelled domain name",
+    "explanation": "Phishing sites often use typosquatting — domains that look like the real one."
+  },
+  {
+    "id": 106,
+    "level": 2,
+    "question": "What is 'credential harvesting' in phishing attacks?",
+    "options": ["Collecting login details via fake sites", "Spamming users with offers"],
+    "answer": "Collecting login details via fake sites",
+    "explanation": "Credential harvesting tricks users into submitting usernames and passwords."
+  },
+  {
+    "id": 107,
+    "level": 2,
+    "question": "How can a phishing attack bypass a company’s spam filters?",
+    "options": ["Using AI-generated content", "Using large fonts"],
+    "answer": "Using AI-generated content",
+    "explanation": "Modern phishing can evade filters by mimicking human language patterns."
+  },
+  {
+    "id": 108,
+    "level": 2,
+    "question": "Why are phishing attacks via LinkedIn or job portals harder to detect?",
+    "options": ["People trust job platforms", "They’re encrypted"],
+    "answer": "People trust job platforms",
+    "explanation": "Trust in professional platforms is exploited by attackers posing as recruiters."
+  },
+  {
+    "id": 109,
+    "level": 2,
+    "question": "A phishing email includes a signature that mimics your colleague. What should you check?",
+    "options": ["The tone of the message", "The email address and spelling"],
+    "answer": "The email address and spelling",
+    "explanation": "Impersonators can replicate names and formatting but often use fake email domains."
+  },
+  {
+    "id": 110,
+    "level": 2,
+    "question": "An email contains a QR code to scan for a discount. What's the risk?",
+    "options": ["No risk", "QR codes can lead to phishing sites"],
+    "answer": "QR codes can lead to phishing sites",
+    "explanation": "QR phishing (quishing) hides URLs behind image codes."
+  },
+  {
+    "id": 111,
+    "level": 2,
+    "question": "Why are mobile users more vulnerable to phishing?",
+    "options": ["Phones are more secure", "Small screens hide full URLs"],
+    "answer": "Small screens hide full URLs",
+    "explanation": "Smaller screens make it harder to inspect links and domains."
+  },
+  {
+    "id": 112,
+    "level": 2,
+    "question": "What’s one way attackers get around email filters using attachments?",
+    "options": ["Attach images only", "Use embedded links inside PDFs or Word files"],
+    "answer": "Use embedded links inside PDFs or Word files",
+    "explanation": "Malicious links are often hidden in common document types."
+  },
+  {
+    "id": 113,
+    "level": 2,
+    "question": "What is a 'watering hole' phishing attack?",
+    "options": ["Sending emails to fish markets", "Compromising a trusted website users visit"],
+    "answer": "Compromising a trusted website users visit",
+    "explanation": "These attacks target commonly visited sites with malicious payloads."
+  },
+  {
+    "id": 114,
+    "level": 2,
+    "question": "A coworker sends a shared document link via email, but it asks for login again. What’s suspicious?",
+    "options": ["Document is in PDF format", "Redundant login prompt"],
+    "answer": "Redundant login prompt",
+    "explanation": "Re-entering login credentials may signal credential harvesting."
+  },
+  {
+    "id": 115,
+    "level": 2,
+    "question": "You get a call from someone saying your email is compromised and asks you to log in to 'verify'. What’s your response?",
+    "options": ["Do it immediately", "Refuse and contact IT support"],
+    "answer": "Refuse and contact IT support",
+    "explanation": "Phone-based phishing (vishing) is a growing method to extract login info."
+  },
+  {
+    "id": 116,
+    "level": 2,
+    "question": "Which is a realistic sign of phishing on social media?",
+    "options": ["Verified account status", "Strange links in messages from friends"],
+    "answer": "Strange links in messages from friends",
+    "explanation": "Accounts may be hijacked to spread phishing links."
+  },
+  {
+    "id": 117,
+    "level": 2,
+    "question": "How does 'domain spoofing' contribute to phishing?",
+    "options": ["Creates fake antivirus alerts", "Forges sender addresses to look real"],
+    "answer": "Forges sender addresses to look real",
+    "explanation": "Domain spoofing helps attackers impersonate trusted sources."
+  },
+  {
+    "id": 118,
+    "level": 2,
+    "question": "You get a Dropbox invite link asking to log in. What’s the secure action?",
+    "options": ["Click and log in", "Verify with the sender before clicking"],
+    "answer": "Verify with the sender before clicking",
+    "explanation": "Even legit-looking invites can be faked."
+  },
+  {
+    "id": 119,
+    "level": 2,
+    "question": "Your online banking session ends and a popup asks for your card details. What’s suspicious?",
+    "options": ["It's normal behavior", "Secure sites never request card data after logout"],
+    "answer": "Secure sites never request card data after logout",
+    "explanation": "Requests after session timeouts are signs of phishing overlays."
+  },
+  {
+    "id": 120,
+    "level": 2,
+    "question": "How does 'conversation hijacking' in phishing work?",
+    "options": ["Starts a new chat", "Injects phishing links into existing email threads"],
+    "answer": "Injects phishing links into existing email threads",
+    "explanation": "It builds trust by continuing familiar conversations."
+  },
+  {
+    "id": 121,
+    "level": 2,
+    "question": "A website forces you to enable macros in a document. What’s the danger?",
+    "options": ["Improves visuals", "Macros can run malicious code"],
+    "answer": "Macros can run malicious code",
+    "explanation": "Phishers often hide malware in macro-enabled Office files."
+  },
+  {
+    "id": 122,
+    "level": 2,
+    "question": "You receive a Facebook message with 'Is this you in the video?' and a link. What’s your move?",
+    "options": ["Click and watch", "Ignore and report"],
+    "answer": "Ignore and report",
+    "explanation": "This is a common phishing trick using social curiosity."
+  },
+  {
+    "id": 123,
+    "level": 2,
+    "question": "How can typos help detect phishing emails?",
+    "options": ["Typos show speed", "Frequent typos often indicate fake sources"],
+    "answer": "Frequent typos often indicate fake sources",
+    "explanation": "Phishing messages often have grammatical or formatting mistakes."
+  },
+  {
+    "id": 124,
+    "level": 2,
+    "question": "An email contains an urgent invoice from a supplier. What should you verify first?",
+    "options": ["Sender name", "Domain and attached file"],
+    "answer": "Domain and attached file",
+    "explanation": "Names can be faked. Domains and files must be carefully reviewed."
+  },
+  {
+    "id": 125,
+    "level": 2,
+    "question": "Why are spoofed invoices dangerous in phishing?",
+    "options": ["They increase sales", "They can trick users into paying the attacker"],
+    "answer": "They can trick users into paying the attacker",
+    "explanation": "Fake invoices are used to reroute payments to attacker-controlled accounts."
+  },
+  {
+    "id": 126,
+    "level": 2,
+    "question": "You receive a job offer email that asks you to install a messaging app to proceed. What should you do?",
+    "options": ["Install and chat", "Verify the employer and job post first"],
+    "answer": "Verify the employer and job post first",
+    "explanation": "Fake job offers often aim to exploit job seekers via unofficial channels."
+  },
+  {
+    "id": 127,
+    "level": 2,
+    "question": "You are redirected to a site that says your session has expired and asks you to log in again. What’s a red flag?",
+    "options": ["Modern design", "Unusual or unfamiliar URL"],
+    "answer": "Unusual or unfamiliar URL",
+    "explanation": "Phishing sites often mimic real ones but use fake domains."
+  },
+  {
+    "id": 128,
+    "level": 2,
+    "question": "What is 'clone phishing'?",
+    "options": ["Creating a duplicate website", "Resending a legitimate email with malicious content"],
+    "answer": "Resending a legitimate email with malicious content",
+    "explanation": "Attackers resend real emails with malicious links or attachments."
+  },
+  {
+    "id": 129,
+    "level": 2,
+    "question": "A colleague urgently requests access to financial data via an external form. What should you do?",
+    "options": ["Comply quickly", "Verify identity through another channel"],
+    "answer": "Verify identity through another channel",
+    "explanation": "Urgency is a common social engineering tactic used in phishing."
+  },
+  {
+    "id": 130,
+    "level": 2,
+    "question": "Which of the following is a safer practice?",
+    "options": ["Clicking links in emails", "Navigating to known URLs manually"],
+    "answer": "Navigating to known URLs manually",
+    "explanation": "Avoid clicking unknown links; always use direct access when possible."
+  },
+  {
+    "id": 131,
+    "level": 2,
+    "question": "An email says your subscription failed and asks you to 'update payment method'. What should you do?",
+    "options": ["Click and update", "Check your account through the official website"],
+    "answer": "Check your account through the official website",
+    "explanation": "Always confirm payment issues directly through official platforms."
+  },
+  {
+    "id": 132,
+    "level": 2,
+    "question": "What’s a sign of a phishing form hosted on Google Forms?",
+    "options": ["It loads quickly", "It asks for login credentials"],
+    "answer": "It asks for login credentials",
+    "explanation": "Legitimate forms should never request passwords or sensitive logins."
+  },
+  {
+    "id": 133,
+    "level": 2,
+    "question": "What’s a safe response when receiving unexpected attachments?",
+    "options": ["Open to check quickly", "Scan or verify before opening"],
+    "answer": "Scan or verify before opening",
+    "explanation": "Attachments can contain malware or phishing links."
+  },
+  {
+    "id": 134,
+    "level": 2,
+    "question": "Why is 'hovering over links' important?",
+    "options": ["For better visuals", "To see the actual URL destination"],
+    "answer": "To see the actual URL destination",
+    "explanation": "Hovering reveals hidden or deceptive links."
+  },
+  {
+    "id": 135,
+    "level": 2,
+    "question": "You get an alert from 'Microsoft Security Center'. It asks to call a toll-free number. What’s likely?",
+    "options": ["It’s legitimate", "It’s tech support phishing"],
+    "answer": "It’s tech support phishing",
+    "explanation": "Fake popups and emails mimic brands to get users to call scammers."
+  },
+  {
+    "id": 136,
+    "level": 2,
+    "question": "What is the risk of shortened URLs in emails?",
+    "options": ["No risk", "They obscure the actual destination"],
+    "answer": "They obscure the actual destination",
+    "explanation": "Shortened links are often used to hide phishing domains."
+  },
+  {
+    "id": 137,
+    "level": 2,
+    "question": "You receive an invoice from a known vendor, but it’s a little different than usual. What’s your first step?",
+    "options": ["Pay it anyway", "Confirm directly with the vendor"],
+    "answer": "Confirm directly with the vendor",
+    "explanation": "Phishing attacks may spoof vendor emails to reroute payments."
+  },
+  {
+    "id": 138,
+    "level": 2,
+    "question": "What’s one sign a login page is fake even if it has a padlock icon?",
+    "options": ["Padlock means safety", "Padlock does not guarantee legitimacy"],
+    "answer": "Padlock does not guarantee legitimacy",
+    "explanation": "Phishing sites can still use HTTPS and display the padlock."
+  },
+  {
+    "id": 139,
+    "level": 2,
+    "question": "You notice an internal email requesting private credentials. What’s the appropriate action?",
+    "options": ["Comply silently", "Report to IT/security team"],
+    "answer": "Report to IT/security team",
+    "explanation": "Internal phishing (insider threat) should be reported immediately."
+  },
+  {
+    "id": 140,
+    "level": 2,
+    "question": "Why are fake browser update popups dangerous?",
+    "options": ["They help you update faster", "They may install malware"],
+    "answer": "They may install malware",
+    "explanation": "Fake updates are a common phishing tactic to install malicious software."
+  },
+  {
+    "id": 141,
+    "level": 2,
+    "question": "A link says 'confirm your bank login' but the domain ends in '.xyz'. What should you do?",
+    "options": ["Proceed", "Do not trust unusual domain extensions"],
+    "answer": "Do not trust unusual domain extensions",
+    "explanation": "Phishing often uses unfamiliar or free domain extensions."
+  },
+  {
+    "id": 142,
+    "level": 2,
+    "question": "You receive a meeting invite with a suspicious attachment. What’s your best action?",
+    "options": ["Download it to prepare", "Verify sender and file type first"],
+    "answer": "Verify sender and file type first",
+    "explanation": "Malicious attachments can be embedded in calendar invites."
+  },
+  {
+    "id": 143,
+    "level": 2,
+    "question": "What should you check first in a suspicious email?",
+    "options": ["Time it was sent", "Sender’s full email address"],
+    "answer": "Sender’s full email address",
+    "explanation": "Phishing emails often come from lookalike or unofficial domains."
+  },
+  {
+    "id": 144,
+    "level": 2,
+    "question": "An ad pop-up says you won a prize and asks for personal details. What should you do?",
+    "options": ["Claim the prize", "Ignore and close the ad"],
+    "answer": "Ignore and close the ad",
+    "explanation": "Pop-up ads offering prizes are often phishing traps."
+  },
+  {
+    "id": 145,
+    "level": 2,
+    "question": "Why should you avoid clicking 'unsubscribe' on spam or phishing emails?",
+    "options": ["It’s effective", "It can confirm your email is active"],
+    "answer": "It can confirm your email is active",
+    "explanation": "Phishers use this to validate active email addresses."
+  },
+  {
+    "id": 146,
+    "level": 2,
+    "question": "You get a 'security alert' from your email provider with broken grammar and misspellings. What’s likely?",
+    "options": ["Official communication", "Phishing attempt"],
+    "answer": "Phishing attempt",
+    "explanation": "Poor grammar and formatting are signs of phishing."
+  },
+  {
+    "id": 147,
+    "level": 2,
+    "question": "Which action could prevent being phished via a QR code?",
+    "options": ["Scan quickly", "Use a trusted QR scanner that previews URLs"],
+    "answer": "Use a trusted QR scanner that previews URLs",
+    "explanation": "Smart scanners reveal link destinations before opening them."
+  },
+  {
+    "id": 148,
+    "level": 2,
+    "question": "How can phishing attackers exploit calendar invites?",
+    "options": ["They send holiday wishes", "They embed phishing links in invites"],
+    "answer": "They embed phishing links in invites",
+    "explanation": "Malicious links in calendar invites can trick users into clicking."
+  },
+  {
+    "id": 149,
+    "level": 2,
+    "question": "A shipping notification asks for a fee to release your package. What’s the danger?",
+    "options": ["Legit practice", "It’s a phishing scam demanding payment info"],
+    "answer": "It’s a phishing scam demanding payment info",
+    "explanation": "Fake shipping emails can lead to theft of personal and financial data."
+  },
+  {
+    "id": 150,
+    "level": 2,
+    "question": "What’s a safe response to suspicious login alerts?",
+    "options": ["Click the alert immediately", "Log in directly from the official website"],
+    "answer": "Log in directly from the official website",
+    "explanation": "Never click alert links — go directly to the site to verify."
+  },
+  {
+    "id": 151,
+    "level": 2,
+    "question": "What should you do if a social media message from a friend seems off and includes a link?",
+    "options": ["Click to see what it is", "Verify with your friend through another channel"],
+    "answer": "Verify with your friend through another channel",
+    "explanation": "Their account may have been compromised and used to spread phishing links."
+  },
+  {
+    "id": 152,
+    "level": 2,
+    "question": "Why are personalized phishing emails more dangerous?",
+    "options": ["They’re friendlier", "They appear more credible and lower suspicion"],
+    "answer": "They appear more credible and lower suspicion",
+    "explanation": "Spear phishing uses personal details to increase trust."
+  },
+  {
+    "id": 153,
+    "level": 2,
+    "question": "Which one is more likely to be a phishing website?",
+    "options": ["https://www.bank.com", "https://secure-login.bank.com.xyz"],
+    "answer": "https://secure-login.bank.com.xyz",
+    "explanation": "Lookalike subdomains with strange endings often host phishing pages."
+  },
+  {
+    "id": 154,
+    "level": 2,
+    "question": "A mobile app update requests access to your contacts and camera unexpectedly. What should you do?",
+    "options": ["Allow all access", "Review and deny unnecessary permissions"],
+    "answer": "Review and deny unnecessary permissions",
+    "explanation": "Overreaching permissions could be a sign of malicious intent."
+  },
+  {
+    "id": 155,
+    "level": 2,
+    "question": "What’s the risk of logging into your bank through a public Wi-Fi hotspot?",
+    "options": ["None", "Attackers may intercept data using phishing or spoofed networks"],
+    "answer": "Attackers may intercept data using phishing or spoofed networks",
+    "explanation": "Public Wi-Fi is vulnerable to man-in-the-middle and phishing attacks."
+  },
+  {
+    "id": 156,
+    "level": 2,
+    "question": "You receive an SMS with a link to 'unlock your account'. What’s the safest action?",
+    "options": ["Click and enter login info", "Log in through the official website or app"],
+    "answer": "Log in through the official website or app",
+    "explanation": "Smishing uses texts to lead victims to fake login pages."
+  },
+  {
+    "id": 157,
+    "level": 2,
+    "question": "Why are phishing emails often designed to look urgent or alarming?",
+    "options": ["To help users quickly respond", "To pressure victims into acting without thinking"],
+    "answer": "To pressure victims into acting without thinking",
+    "explanation": "Creating urgency is a psychological trick used by phishers."
+  },
+  {
+    "id": 158,
+    "level": 2,
+    "question": "Which is a sign of a social engineering attempt?",
+    "options": ["Clear company policy info", "Request for confidential information over chat"],
+    "answer": "Request for confidential information over chat",
+    "explanation": "Legitimate support will never ask for credentials via chat or email."
+  },
+  {
+    "id": 159,
+    "level": 2,
+    "question": "How does email spoofing contribute to phishing?",
+    "options": ["It helps emails reach inboxes faster", "It tricks users by faking sender identity"],
+    "answer": "It tricks users by faking sender identity",
+    "explanation": "Spoofing disguises emails as if they come from a trusted sender."
+  },
+  {
+    "id": 160,
+    "level": 2,
+    "question": "What makes QR phishing (quishing) harder to detect?",
+    "options": ["They're easy to scan", "The URL is hidden until scanned"],
+    "answer": "The URL is hidden until scanned",
+    "explanation": "Users don’t see where the QR code leads until it's too late."
+  },
+  {
+    "id": 161,
+    "level": 2,
+    "question": "Why should you be cautious of browser extensions from unknown sources?",
+    "options": ["They improve performance", "They can collect data or inject phishing content"],
+    "answer": "They can collect data or inject phishing content",
+    "explanation": "Malicious extensions can track, redirect, or spoof pages."
+  },
+  {
+    "id": 162,
+    "level": 2,
+    "question": "You receive an email with a Google Doc link from someone you don’t recognize. What’s safest?",
+    "options": ["Click to review", "Verify sender or avoid opening it"],
+    "answer": "Verify sender or avoid opening it",
+    "explanation": "Phishing links can be embedded in cloud document shares."
+  },
+  {
+    "id": 163,
+    "level": 2,
+    "question": "Why should you not reuse passwords across websites?",
+    "options": ["It’s more convenient", "One breach can compromise all accounts"],
+    "answer": "One breach can compromise all accounts",
+    "explanation": "Credential stuffing attacks rely on reused credentials."
+  },
+  {
+    "id": 164,
+    "level": 2,
+    "question": "You receive an email from HR asking you to update payroll info via a shortened URL. What’s wrong?",
+    "options": ["HR is allowed to email", "Sensitive info shouldn’t be handled via unknown links"],
+    "answer": "Sensitive info shouldn’t be handled via unknown links",
+    "explanation": "Phishing often impersonates internal departments like HR or Finance."
+  },
+  {
+    "id": 165,
+    "level": 2,
+    "question": "A friend asks you for a verification code they 'accidentally sent to your phone'. What’s happening?",
+    "options": ["Friend made a mistake", "It’s likely account takeover phishing"],
+    "answer": "It’s likely account takeover phishing",
+    "explanation": "Phishers trick users into giving up 2FA or login codes."
+  },
+  {
+    "id": 166,
+    "level": 2,
+    "question": "Why is it dangerous to follow links from unsolicited text messages?",
+    "options": ["Saves time", "Links may install malware or lead to phishing sites"],
+    "answer": "Links may install malware or lead to phishing sites",
+    "explanation": "Smishing often uses shortened links to mask malicious destinations."
+  },
+  {
+    "id": 167,
+    "level": 2,
+    "question": "Which behavior reduces your phishing risk significantly?",
+    "options": ["Using one password for all", "Enabling two-factor authentication"],
+    "answer": "Enabling two-factor authentication",
+    "explanation": "2FA adds a layer of protection even if your password is compromised."
+  },
+  {
+    "id": 168,
+    "level": 2,
+    "question": "Why are social media quizzes risky?",
+    "options": ["They’re just fun", "They often collect data that can be used for phishing"],
+    "answer": "They often collect data that can be used for phishing",
+    "explanation": "Attackers harvest personal data to craft personalized phishing attacks."
+  },
+  {
+    "id": 169,
+    "level": 2,
+    "question": "You get a call claiming to be IT support asking for your password. What should you do?",
+    "options": ["Give it if they sound legit", "Refuse and report the incident"],
+    "answer": "Refuse and report the incident",
+    "explanation": "No legitimate IT team asks for passwords over the phone."
+  },
+  {
+    "id": 170,
+    "level": 2,
+    "question": "What does the term 'payload' refer to in phishing emails?",
+    "options": ["The subject line", "The malicious content like links or attachments"],
+    "answer": "The malicious content like links or attachments",
+    "explanation": "Phishing payloads are the tools used to deliver harm (malware, fake login pages, etc.)."
+  },
+  {
+    "id": 171,
+    "level": 3,
+    "question": "What is the primary goal of spear phishing?",
+    "options": ["Mass email collection", "Targeted deception to access sensitive data"],
+    "answer": "Targeted deception to access sensitive data",
+    "explanation": "Spear phishing targets specific individuals using personal info to appear credible."
+  },
+  {
+    "id": 172,
+    "level": 3,
+    "question": "How do attackers often gain the information needed for a spear phishing email?",
+    "options": ["Guessing", "Researching targets on social media and company websites"],
+    "answer": "Researching targets on social media and company websites",
+    "explanation": "Attackers use open-source intelligence (OSINT) to craft convincing messages."
+  },
+  {
+    "id": 173,
+    "level": 3,
+    "question": "What does a BEC (Business Email Compromise) attacker usually impersonate?",
+    "options": ["A stranger", "A senior executive or trusted partner"],
+    "answer": "A senior executive or trusted partner",
+    "explanation": "BEC scams impersonate high-ranking individuals to trick staff into wiring money or disclosing info."
+  },
+  {
+    "id": 174,
+    "level": 3,
+    "question": "Why are BEC attacks harder to detect than typical phishing?",
+    "options": ["They’re random", "They use no links or malware, just social engineering"],
+    "answer": "They use no links or malware, just social engineering",
+    "explanation": "Without malicious payloads, BEC often bypasses traditional security filters."
+  },
+  {
+    "id": 175,
+    "level": 3,
+    "question": "An attacker sends a QR code that leads to a fake login page. What is this called?",
+    "options": ["Smishing", "Quishing"],
+    "answer": "Quishing",
+    "explanation": "Quishing is phishing that uses QR codes to mislead users."
+  },
+  {
+    "id": 176,
+    "level": 3,
+    "question": "AI-generated phishing emails are more dangerous because:",
+    "options": ["They contain viruses", "They mimic natural language and reduce errors"],
+    "answer": "They mimic natural language and reduce errors",
+    "explanation": "AI can craft believable, grammatically correct phishing content."
+  },
+  {
+    "id": 177,
+    "level": 3,
+    "question": "Which is a red flag for AI-generated phishing?",
+    "options": ["No greeting", "Hyper-personalized messages with odd context"],
+    "answer": "Hyper-personalized messages with odd context",
+    "explanation": "AI phishing can over-personalize content or reference irrelevant facts to seem authentic."
+  },
+  {
+    "id": 178,
+    "level": 3,
+    "question": "How can insider threats be linked to phishing?",
+    "options": ["Insiders ignore email", "Insiders may willingly or unknowingly assist phishing efforts"],
+    "answer": "Insiders may willingly or unknowingly assist phishing efforts",
+    "explanation": "Disgruntled or careless insiders may help attackers gain access."
+  },
+  {
+    "id": 179,
+    "level": 3,
+    "question": "How might phishing attackers use LinkedIn?",
+    "options": ["To promote jobs", "To learn your role and coworkers to build targeted attacks"],
+    "answer": "To learn your role and coworkers to build targeted attacks",
+    "explanation": "LinkedIn helps attackers map org structures for spear phishing."
+  },
+  {
+    "id": 180,
+    "level": 3,
+    "question": "A phishing email contains no links or attachments but asks you to respond with sensitive data. What's this called?",
+    "options": ["Traditional phishing", "Plaintext phishing or BEC"],
+    "answer": "Plaintext phishing or BEC",
+    "explanation": "BEC often lacks indicators like links, relying solely on email content."
+  },
+  {
+    "id": 181,
+    "level": 3,
+    "question": "What is 'payloadless phishing'?",
+    "options": ["Phishing with malware", "Phishing without malicious links or files"],
+    "answer": "Phishing without malicious links or files",
+    "explanation": "It relies on tricking humans directly rather than using technical exploits."
+  },
+  {
+    "id": 182,
+    "level": 3,
+    "question": "Why do some phishing attacks ask to change banking details for future invoices?",
+    "options": ["To be helpful", "To redirect payments to the attacker’s account"],
+    "answer": "To redirect payments to the attacker’s account",
+    "explanation": "This is a common BEC tactic used to steal money via fake vendor requests."
+  },
+  {
+    "id": 183,
+    "level": 3,
+    "question": "Which behavior can help detect advanced phishing?",
+    "options": ["Ignoring company policies", "Scrutinizing sender identity and context"],
+    "answer": "Scrutinizing sender identity and context",
+    "explanation": "Advanced phishing often mimics real communication, so critical thinking is key."
+  },
+  {
+    "id": 184,
+    "level": 3,
+    "question": "What is 'pretexting' in the context of phishing?",
+    "options": ["Coding a payload", "Creating a believable story to gain trust and data"],
+    "answer": "Creating a believable story to gain trust and data",
+    "explanation": "Pretexting involves lying to manipulate someone into giving up sensitive info."
+  },
+  {
+    "id": 185,
+    "level": 3,
+    "question": "Why do attackers sometimes delay their phishing attempts after a data breach?",
+    "options": ["To avoid suspicion", "To wait for the right moment to exploit stolen info"],
+    "answer": "To wait for the right moment to exploit stolen info",
+    "explanation": "Stolen data may be used later for more convincing attacks."
+  },
+  {
+    "id": 186,
+    "level": 3,
+    "question": "What’s a ‘watering hole’ phishing attack?",
+    "options": ["Infected watering systems", "Compromising a site commonly visited by a target group"],
+    "answer": "Compromising a site commonly visited by a target group",
+    "explanation": "This tactic aims to infect or phish users of a trusted site."
+  },
+  {
+    "id": 187,
+    "level": 3,
+    "question": "What role can compromised third-party vendors play in phishing?",
+    "options": ["None", "They can be used as trusted senders to deliver phishing"],
+    "answer": "They can be used as trusted senders to deliver phishing",
+    "explanation": "Attackers may leverage vendors to bypass trust barriers."
+  },
+  {
+    "id": 188,
+    "level": 3,
+    "question": "How can phishing attackers abuse calendar invites?",
+    "options": ["To improve productivity", "To embed malicious links in event descriptions"],
+    "answer": "To embed malicious links in event descriptions",
+    "explanation": "Fake calendar invites may include phishing links or attachments."
+  },
+  {
+    "id": 189,
+    "level": 3,
+    "question": "Which is a common goal of phishing involving invoice fraud?",
+    "options": ["Stealing company laptops", "Tricking staff into paying fake bills"],
+    "answer": "Tricking staff into paying fake bills",
+    "explanation": "Invoice fraud is a major goal in BEC-style phishing."
+  },
+  {
+    "id": 190,
+    "level": 3,
+    "question": "How do AI tools help attackers scale phishing?",
+    "options": ["They can’t", "They generate human-like, personalized emails quickly"],
+    "answer": "They generate human-like, personalized emails quickly",
+    "explanation": "AI enables realistic phishing messages at large scale."
+  },
+  {
+    "id": 191,
+    "level": 3,
+    "question": "You receive an unexpected file from a supplier you usually trust. What’s the safest step?",
+    "options": ["Open it immediately", "Verify authenticity with the supplier through a separate channel"],
+    "answer": "Verify authenticity with the supplier through a separate channel",
+    "explanation": "Even trusted suppliers could be compromised or impersonated."
+  },
+  {
+    "id": 192,
+    "level": 3,
+    "question": "What makes deepfake phishing especially dangerous?",
+    "options": ["They’re easy to spot", "They mimic real people using voice or video"],
+    "answer": "They mimic real people using voice or video",
+    "explanation": "Deepfakes can convincingly impersonate trusted individuals."
+  },
+  {
+    "id": 193,
+    "level": 3,
+    "question": "Which advanced phishing tactic uses lookalike domains?",
+    "options": ["Whaling", "Typosquatting"],
+    "answer": "Typosquatting",
+    "explanation": "Typosquatting uses slight misspellings of domains to deceive users."
+  },
+  {
+    "id": 194,
+    "level": 3,
+    "question": "What is the risk of using unsecured file-sharing services?",
+    "options": ["Faster downloads", "They can host fake documents or malware for phishing"],
+    "answer": "They can host fake documents or malware for phishing",
+    "explanation": "Attackers may exploit services like Dropbox to deliver phishing content."
+  },
+  {
+    "id": 195,
+    "level": 3,
+    "question": "Which behavior can make you a target for whaling attacks?",
+    "options": ["Staying quiet online", "Posting executive-level job titles publicly"],
+    "answer": "Posting executive-level job titles publicly",
+    "explanation": "Whaling targets senior roles whose profiles are visible online."
+  },
+  {
+    "id": 196,
+    "level": 3,
+    "question": "An attacker sends a document for electronic signature that redirects to a malicious login page. What is this an example of?",
+    "options": ["Standard business workflow", "Phishing disguised as a document signing request"],
+    "answer": "Phishing disguised as a document signing request",
+    "explanation": "Attackers often impersonate tools like DocuSign to steal credentials."
+  },
+  {
+    "id": 197,
+    "level": 3,
+    "question": "What makes phishing simulations valuable for organizations?",
+    "options": ["They waste time", "They help identify employee vulnerability and raise awareness"],
+    "answer": "They help identify employee vulnerability and raise awareness",
+    "explanation": "Simulations are key for training and risk assessment."
+  },
+  {
+    "id": 198,
+    "level": 3,
+    "question": "Why might a phishing email reference a previous real conversation?",
+    "options": ["To show familiarity", "To confuse the attacker"],
+    "answer": "To show familiarity",
+    "explanation": "Thread hijacking uses existing email chains to build trust."
+  },
+  {
+    "id": 199,
+    "level": 3,
+    "question": "You’re asked to update your password through a form embedded in an email. What should you do?",
+    "options": ["Enter it immediately", "Never enter credentials in email forms; go to the official site"],
+    "answer": "Never enter credentials in email forms; go to the official site",
+    "explanation": "Emails with embedded login forms are a red flag."
+  },
+  {
+    "id": 200,
+    "level": 3,
+    "question": "What is ‘credential harvesting’?",
+    "options": ["Collecting user names from public sources", "Stealing usernames and passwords via fake login pages"],
+    "answer": "Stealing usernames and passwords via fake login pages",
+    "explanation": "Credential harvesting is a core goal of many phishing attacks."
+  },
+  {
+    "id": 201,
+    "level": 3,
+    "question": "How can phishing attackers exploit travel or conference announcements?",
+    "options": ["Congratulate employees", "Target staff with fake itinerary or reservation updates"],
+    "answer": "Target staff with fake itinerary or reservation updates",
+    "explanation": "Attackers use public event details to create convincing phishing lures."
+  },
+  {
+    "id": 202,
+    "level": 3,
+    "question": "Which of the following is a tactic used in 'CEO fraud'?",
+    "options": ["Sending fake gifts", "Pretending to be an executive and demanding urgent actions"],
+    "answer": "Pretending to be an executive and demanding urgent actions",
+    "explanation": "CEO fraud is a classic BEC attack that abuses perceived authority."
+  },
+  {
+    "id": 203,
+    "level": 3,
+    "question": "Why do phishing attacks sometimes reference urgent legal or financial deadlines?",
+    "options": ["To be helpful", "To pressure victims into fast action without verification"],
+    "answer": "To pressure victims into fast action without verification",
+    "explanation": "Urgency lowers critical thinking and increases success rates."
+  },
+  {
+    "id": 204,
+    "level": 3,
+    "question": "How can a compromised internal email account increase phishing effectiveness?",
+    "options": ["It cannot", "It makes phishing appear internal and trustworthy"],
+    "answer": "It makes phishing appear internal and trustworthy",
+    "explanation": "Internal emails bypass suspicion and often evade filters."
+  },
+  {
+    "id": 205,
+    "level": 3,
+    "question": "Why is role-based training important in phishing prevention?",
+    "options": ["All users face the same threats", "Different roles face different phishing risks"],
+    "answer": "Different roles face different phishing risks",
+    "explanation": "Executives, HR, and finance staff are targeted differently."
+  },
+  {
+    "id": 206,
+    "level": 3,
+    "question": "An email from a familiar sender is asking you to download a file from a new, unknown file service. What should you do?",
+    "options": ["Download immediately", "Verify with the sender using a known communication channel"],
+    "answer": "Verify with the sender using a known communication channel",
+    "explanation": "Even trusted senders may be compromised or spoofed."
+  },
+  {
+    "id": 207,
+    "level": 3,
+    "question": "What is ‘email thread hijacking’ in phishing?",
+    "options": ["Starting a new conversation", "Inserting phishing content into existing email threads"],
+    "answer": "Inserting phishing content into existing email threads",
+    "explanation": "This increases credibility and reduces suspicion."
+  },
+  {
+    "id": 208,
+    "level": 3,
+    "question": "Why are mobile users more vulnerable to phishing?",
+    "options": ["Phones are secure", "Small screens make it harder to detect suspicious links or emails"],
+    "answer": "Small screens make it harder to detect suspicious links or emails",
+    "explanation": "Mobile UI often hides full URLs and sender details."
+  },
+  {
+    "id": 209,
+    "level": 3,
+    "question": "What is ‘zero-click’ phishing?",
+    "options": ["A scam that requires clicking a link", "An exploit delivered without user interaction"],
+    "answer": "An exploit delivered without user interaction",
+    "explanation": "Zero-click exploits infect devices via apps or previews without clicks."
+  },
+  {
+    "id": 210,
+    "level": 3,
+    "question": "How can logging into public Wi-Fi increase phishing risk?",
+    "options": ["It’s safe with VPN", "Fake access points may serve phishing login pages"],
+    "answer": "Fake access points may serve phishing login pages",
+    "explanation": "Evil twin attacks can redirect users to fake pages on public Wi-Fi."
+  },
+  {
+    "id": 211,
+    "level": 3,
+    "question": "What is a phishing toolkit?",
+    "options": ["Security software", "Pre-packaged tools used by attackers to launch phishing campaigns"],
+    "answer": "Pre-packaged tools used by attackers to launch phishing campaigns",
+    "explanation": "Toolkits make phishing accessible even to non-technical attackers."
+  },
+  {
+    "id": 212,
+    "level": 3,
+    "question": "How does MFA (Multi-Factor Authentication) impact phishing success?",
+    "options": ["It guarantees security", "It adds a layer of defense, but can be bypassed by advanced phishing"],
+    "answer": "It adds a layer of defense, but can be bypassed by advanced phishing",
+    "explanation": "MFA is helpful, but not foolproof against phishing proxies or social engineering."
+  },
+  {
+    "id": 213,
+    "level": 3,
+    "question": "Which of the following best defines ‘phishing proxy’?",
+    "options": ["Email server", "A tool that captures login details by mirroring a real website in real time"],
+    "answer": "A tool that captures login details by mirroring a real website in real time",
+    "explanation": "Phishing proxies bypass MFA by intercepting session data."
+  },
+  {
+    "id": 214,
+    "level": 3,
+    "question": "An attacker uses a breached social media account to send malicious links. What’s this an example of?",
+    "options": ["Spam", "Lateral phishing"],
+    "answer": "Lateral phishing",
+    "explanation": "This technique spreads phishing from within the victim's network."
+  },
+  {
+    "id": 215,
+    "level": 3,
+    "question": "Why are voicemail phishing scams (vishing) still effective?",
+    "options": ["Nobody uses phones", "People trust human voices and urgency in calls"],
+    "answer": "People trust human voices and urgency in calls",
+    "explanation": "Voice phishing preys on trust and emotion."
+  },
+  {
+    "id": 216,
+    "level": 3,
+    "question": "What’s one way attackers use malicious OAuth permissions?",
+    "options": ["To log out users", "To gain persistent access to cloud data via app authorization"],
+    "answer": "To gain persistent access to cloud data via app authorization",
+    "explanation": "OAuth phishing tricks users into giving access to malicious apps."
+  },
+  {
+    "id": 217,
+    "level": 3,
+    "question": "How might QR code phishing bypass traditional email filters?",
+    "options": ["They’re too obvious", "QR images are not analyzed the same way as URLs"],
+    "answer": "QR images are not analyzed the same way as URLs",
+    "explanation": "QR phishing can evade detection because the link is embedded in an image."
+  },
+  {
+    "id": 218,
+    "level": 3,
+    "question": "What type of phishing targets cloud administrators?",
+    "options": ["Smishing", "Admin-focused phishing or cloud privilege attacks"],
+    "answer": "Admin-focused phishing or cloud privilege attacks",
+    "explanation": "Attackers aim for high-privilege cloud users to maximize access."
+  },
+  {
+    "id": 219,
+    "level": 3,
+    "question": "What makes phishing-as-a-service (PhaaS) dangerous?",
+    "options": ["It helps security teams", "It enables unskilled attackers to launch sophisticated campaigns"],
+    "answer": "It enables unskilled attackers to launch sophisticated campaigns",
+    "explanation": "PhaaS platforms offer templates, hosting, and tools for phishing."
+  },
+  {
+    "id": 220,
+    "level": 3,
+    "question": "A phishing email appears to come from a shared calendar notification. What should you do?",
+    "options": ["Ignore calendar invites", "Inspect the event details and sender’s identity"],
+    "answer": "Inspect the event details and sender’s identity",
+    "explanation": "Phishing links may be hidden in fake calendar invites."
+  },
+  {
+    "id": 221,
+    "level": 3,
+    "question": "A phishing campaign targets multiple high-value individuals within a company at once. What is this known as?",
+    "options": ["Mass phishing", "Whaling"],
+    "answer": "Whaling",
+    "explanation": "Whaling targets top executives like CEOs and CFOs with high-impact attacks."
+  },
+  {
+    "id": 222,
+    "level": 3,
+    "question": "Why is LinkedIn commonly used for phishing reconnaissance?",
+    "options": ["It's secure", "It provides job titles, relationships, and organization structure"],
+    "answer": "It provides job titles, relationships, and organization structure",
+    "explanation": "Attackers use LinkedIn to craft personalized phishing messages."
+  },
+  {
+    "id": 223,
+    "level": 3,
+    "question": "What is the primary goal of a spear phishing attack?",
+    "options": ["To go viral", "To deceive a specific target using personalized information"],
+    "answer": "To deceive a specific target using personalized information",
+    "explanation": "Spear phishing customizes attacks to increase success against a particular individual."
+  },
+  {
+    "id": 224,
+    "level": 3,
+    "question": "Why do attackers spoof trusted brands like Microsoft or Google?",
+    "options": ["People don’t recognize logos", "Users are more likely to trust and interact with familiar brands"],
+    "answer": "Users are more likely to trust and interact with familiar brands",
+    "explanation": "Spoofing trusted services improves click and submission rates."
+  },
+  {
+    "id": 225,
+    "level": 3,
+    "question": "How can AI be used in phishing?",
+    "options": ["To detect threats", "To create personalized, convincing phishing messages at scale"],
+    "answer": "To create personalized, convincing phishing messages at scale",
+    "explanation": "AI automates social engineering and improves believability."
+  },
+  {
+    "id": 226,
+    "level": 3,
+    "question": "What is a ‘watering hole’ attack?",
+    "options": ["Targeting bars", "Compromising websites frequently visited by a specific group"],
+    "answer": "Compromising websites frequently visited by a specific group",
+    "explanation": "Attackers infect sites trusted by the target audience."
+  },
+  {
+    "id": 227,
+    "level": 3,
+    "question": "Which phishing tactic exploits urgency and fear of consequences to manipulate victims?",
+    "options": ["Friendly tone", "Scare tactics"],
+    "answer": "Scare tactics",
+    "explanation": "Emails that threaten account suspension or legal action often trigger compliance."
+  },
+  {
+    "id": 228,
+    "level": 3,
+    "question": "What is ‘clone phishing’?",
+    "options": ["Copying spam", "Reusing a legitimate email with malicious changes"],
+    "answer": "Reusing a legitimate email with malicious changes",
+    "explanation": "Clone phishing uses real email templates and alters attachments or links."
+  },
+  {
+    "id": 229,
+    "level": 3,
+    "question": "What is one benefit of email header analysis in phishing detection?",
+    "options": ["To check file size", "To reveal sender IPs and mismatches in authentication"],
+    "answer": "To reveal sender IPs and mismatches in authentication",
+    "explanation": "Headers can expose spoofing and unexpected relays."
+  },
+  {
+    "id": 230,
+    "level": 3,
+    "question": "What does ‘business email compromise’ (BEC) typically aim to achieve?",
+    "options": ["Customer surveys", "Unauthorized financial transactions or data theft"],
+    "answer": "Unauthorized financial transactions or data theft",
+    "explanation": "BEC exploits internal trust to carry out fraud."
+  },
+  {
+    "id": 231,
+    "level": 3,
+    "question": "An attacker registers a domain like g00gle.com. This is called?",
+    "options": ["Branding", "Typosquatting"],
+    "answer": "Typosquatting",
+    "explanation": "Typosquatting exploits spelling errors to trick users."
+  },
+  {
+    "id": 232,
+    "level": 3,
+    "question": "What is credential stuffing, and how can phishing enable it?",
+    "options": ["Making passwords", "Using stolen credentials from phishing in automated login attempts"],
+    "answer": "Using stolen credentials from phishing in automated login attempts",
+    "explanation": "Credential reuse is common, so one breach can unlock many accounts."
+  },
+  {
+    "id": 233,
+    "level": 3,
+    "question": "What technique uses a fake browser window overlay to steal credentials?",
+    "options": ["Social proofing", "Browser-in-the-browser (BitB) attack"],
+    "answer": "Browser-in-the-browser (BitB) attack",
+    "explanation": "BitB simulates a login popup, tricking users into entering passwords."
+  },
+  {
+    "id": 234,
+    "level": 3,
+    "question": "Why is phishing detection on mobile devices harder?",
+    "options": ["Better filters", "Small UI hides important visual cues"],
+    "answer": "Small UI hides important visual cues",
+    "explanation": "You can’t easily see full links or sender addresses."
+  },
+  {
+    "id": 235,
+    "level": 3,
+    "question": "What is a ‘homograph’ attack?",
+    "options": ["Fake apps", "Using visually similar characters in URLs to mimic domains"],
+    "answer": "Using visually similar characters in URLs to mimic domains",
+    "explanation": "Example: micrоsоft.com (with Cyrillic 'o's) looks real but is malicious."
+  },
+  {
+    "id": 236,
+    "level": 3,
+    "question": "How does DMARC help prevent phishing?",
+    "options": ["Encrypts email", "Helps detect and block email spoofing"],
+    "answer": "Helps detect and block email spoofing",
+    "explanation": "DMARC uses SPF and DKIM to verify sending domains."
+  },
+  {
+    "id": 237,
+    "level": 3,
+    "question": "An email references your recent support ticket with correct ticket number but asks for credentials. What’s likely happening?",
+    "options": ["Support follow-up", "Targeted phishing with stolen internal data"],
+    "answer": "Targeted phishing with stolen internal data",
+    "explanation": "Attackers may exploit breached systems to launch convincing attacks."
+  },
+  {
+    "id": 238,
+    "level": 3,
+    "question": "Which of these is a risk of QR code phishing?",
+    "options": ["Inaccessibility", "Users can’t easily inspect destination URLs before scanning"],
+    "answer": "Users can’t easily inspect destination URLs before scanning",
+    "explanation": "This makes QR phishing harder to detect."
+  },
+  {
+    "id": 239,
+    "level": 3,
+    "question": "What role does HTTPS play in phishing?",
+    "options": ["Guarantees safety", "Can be used by attackers to appear trustworthy"],
+    "answer": "Can be used by attackers to appear trustworthy",
+    "explanation": "Many phishing sites use HTTPS to appear secure."
+  },
+  {
+    "id": 240,
+    "level": 3,
+    "question": "Why is employee training not always enough to prevent phishing?",
+    "options": ["Training causes attacks", "Sophisticated phishing can bypass even alert users"],
+    "answer": "Sophisticated phishing can bypass even alert users",
+    "explanation": "Advanced attacks often mimic legitimate behavior perfectly."
+  },
+  {
+    "id": 241,
+    "level": 3,
+    "question": "What is a common sign of a Business Email Compromise (BEC) scam?",
+    "options": [
+      "Requests for urgent wire transfers",
+      "Informal greetings"
+    ],
+    "answer": "Requests for urgent wire transfers",
+    "explanation": "BEC scams often create urgency to manipulate victims into sending money quickly."
+  },
+  {
+    "id": 242,
+    "level": 3,
+    "question": "What is the purpose of an attacker using deepfake audio in phishing?",
+    "options": [
+      "Entertainment",
+      "To impersonate executives or trusted individuals convincingly"
+    ],
+    "answer": "To impersonate executives or trusted individuals convincingly",
+    "explanation": "Deepfake audio can trick employees into following fraudulent instructions."
+  },
+  {
+    "id": 243,
+    "level": 3,
+    "question": "How can attackers exploit cloud storage in phishing attacks?",
+    "options": [
+      "By hosting phishing pages on legitimate cloud platforms",
+      "By encrypting files"
+    ],
+    "answer": "By hosting phishing pages on legitimate cloud platforms",
+    "explanation": "Hosting on trusted platforms can bypass security filters."
+  },
+  {
+    "id": 244,
+    "level": 3,
+    "question": "What does multi-factor authentication (MFA) do in phishing prevention?",
+    "options": [
+      "Blocks all phishing emails",
+      "Adds an extra layer that reduces account takeover risks"
+    ],
+    "answer": "Adds an extra layer that reduces account takeover risks",
+    "explanation": "MFA helps prevent access even if credentials are stolen."
+  },
+  {
+    "id": 245,
+    "level": 3,
+    "question": "Which type of phishing targets employees to gain access to a company’s network?",
+    "options": [
+      "Smishing",
+      "Business Email Compromise (BEC)"
+    ],
+    "answer": "Business Email Compromise (BEC)",
+    "explanation": "BEC often targets employees responsible for financial or sensitive data."
+  },
+  {
+    "id": 246,
+    "level": 3,
+    "question": "How do attackers use social media to enhance phishing campaigns?",
+    "options": [
+      "By posting advertisements",
+      "By gathering personal info to personalize phishing messages"
+    ],
+    "answer": "By gathering personal info to personalize phishing messages",
+    "explanation": "Social media data increases phishing success by making messages more believable."
+  },
+  {
+    "id": 247,
+    "level": 3,
+    "question": "What is the main risk of opening attachments in phishing emails?",
+    "options": [
+      "Faster internet speed",
+      "Malware infection such as ransomware or spyware"
+    ],
+    "answer": "Malware infection such as ransomware or spyware",
+    "explanation": "Attachments often deliver malicious payloads."
+  },
+  {
+    "id": 248,
+    "level": 3,
+    "question": "How can URL shortening services be exploited in phishing?",
+    "options": [
+      "By hiding the true destination of a link",
+      "By speeding up link loading"
+    ],
+    "answer": "By hiding the true destination of a link",
+    "explanation": "Shortened URLs obscure malicious websites."
+  },
+  {
+    "id": 249,
+    "level": 3,
+    "question": "Why is it dangerous to reuse passwords across multiple sites?",
+    "options": [
+      "It’s convenient",
+      "If one site is compromised, attackers can access other accounts"
+    ],
+    "answer": "If one site is compromised, attackers can access other accounts",
+    "explanation": "Password reuse facilitates credential stuffing attacks."
+  },
+  {
+    "id": 250,
+    "level": 3,
+    "question": "What is a common sign that an email is a phishing attempt?",
+    "options": [
+      "Spelling and grammar mistakes",
+      "Personalized salutations"
+    ],
+    "answer": "Spelling and grammar mistakes",
+    "explanation": "Many phishing emails contain errors that reveal their illegitimacy."
+  },
+  {
+    "id": 251,
+    "level": 3,
+    "question": "What is 'vishing'?",
+    "options": [
+      "Voice phishing via phone calls",
+      "Video phishing through online platforms"
+    ],
+    "answer": "Voice phishing via phone calls",
+    "explanation": "Vishing uses phone calls to trick victims into revealing sensitive info."
+  },
+  {
+    "id": 252,
+    "level": 3,
+    "question": "How can an attacker use a fake Wi-Fi hotspot for phishing?",
+    "options": [
+      "To improve internet speed",
+      "To intercept data and redirect users to fake login pages"
+    ],
+    "answer": "To intercept data and redirect users to fake login pages",
+    "explanation": "Fake hotspots can capture credentials or spread malware."
+  },
+  {
+    "id": 253,
+    "level": 3,
+    "question": "What is the role of SPF records in email security?",
+    "options": [
+      "To allow all emails",
+      "To specify which mail servers can send emails on behalf of a domain"
+    ],
+    "answer": "To specify which mail servers can send emails on behalf of a domain",
+    "explanation": "SPF helps prevent email spoofing by validating sender servers."
+  },
+  {
+    "id": 254,
+    "level": 3,
+    "question": "How does spear phishing differ from mass phishing?",
+    "options": [
+      "Spear phishing targets many people indiscriminately",
+      "Spear phishing targets specific individuals with tailored messages"
+    ],
+    "answer": "Spear phishing targets specific individuals with tailored messages",
+    "explanation": "Spear phishing is focused and personalized to increase success."
+  },
+  {
+    "id": 255,
+    "level": 3,
+    "question": "What is a common phishing red flag related to email sender addresses?",
+    "options": [
+      "Sender’s address is misspelled or suspicious",
+      "Sender address is always from company domain"
+    ],
+    "answer": "Sender’s address is misspelled or suspicious",
+    "explanation": "Phishers often use lookalike or altered sender addresses."
+  },
+  {
+    "id": 256,
+    "level": 3,
+    "question": "What does ‘social engineering’ mean in the context of phishing?",
+    "options": [
+      "Technical hacking methods",
+      "Manipulating people to divulge confidential info"
+    ],
+    "answer": "Manipulating people to divulge confidential info",
+    "explanation": "Phishing is a form of social engineering attack."
+  },
+  {
+    "id": 257,
+    "level": 3,
+    "question": "Why is it risky to use public USB charging stations?",
+    "options": [
+      "They can slow device charging",
+      "They can deliver malware or steal data through 'juice jacking'"
+    ],
+    "answer": "They can deliver malware or steal data through 'juice jacking'",
+    "explanation": "Malicious USB stations can compromise your device."
+  },
+  {
+    "id": 258,
+    "level": 3,
+    "question": "What is an ‘evil twin’ attack?",
+    "options": [
+      "A fake Wi-Fi hotspot mimicking a legitimate one",
+      "A duplicate phishing email"
+    ],
+    "answer": "A fake Wi-Fi hotspot mimicking a legitimate one",
+    "explanation": "Evil twins trick users into connecting to malicious networks."
+  },
+  {
+    "id": 259,
+    "level": 3,
+    "question": "How can attackers use ‘URL obfuscation’ to trick users?",
+    "options": [
+      "By shortening URLs",
+      "By using techniques like hexadecimal or Unicode characters to hide true URLs"
+    ],
+    "answer": "By using techniques like hexadecimal or Unicode characters to hide true URLs",
+    "explanation": "Obfuscated URLs look confusing and can trick filters and users."
+  },
+  {
+    "id": 260,
+    "level": 3,
+    "question": "What should you do if you receive a suspicious email asking to reset your password?",
+    "options": [
+      "Click the link immediately",
+      "Verify the request directly through official channels"
+    ],
+    "answer": "Verify the request directly through official channels",
+    "explanation": "Always confirm password reset requests independently."
+  },
+  {
+    "id": 261,
+    "level": 3,
+    "question": "What does the ‘reply-to’ field in an email indicate in phishing attacks?",
+    "options": [
+      "Where responses will be sent",
+      "Where the email was sent from"
+    ],
+    "answer": "Where responses will be sent",
+    "explanation": "Attackers may manipulate this to receive replies at a different address."
+  },
+  {
+    "id": 262,
+    "level": 3,
+    "question": "What is ‘URL harvesting’ in the context of phishing?",
+    "options": [
+      "Collecting URLs for analysis",
+      "Gathering URLs from legitimate sites to create lookalike phishing pages"
+    ],
+    "answer": "Gathering URLs from legitimate sites to create lookalike phishing pages",
+    "explanation": "Harvesting helps attackers mimic legitimate websites."
+  },
+  {
+    "id": 263,
+    "level": 3,
+    "question": "Why do attackers use shortened URLs in phishing emails?",
+    "options": [
+      "To save character space",
+      "To conceal the real destination URL"
+    ],
+    "answer": "To conceal the real destination URL",
+    "explanation": "Shortened URLs hide malicious links from users and filters."
+  },
+  {
+    "id": 264,
+    "level": 3,
+    "question": "What is the key difference between phishing and spear phishing?",
+    "options": [
+      "Phishing is generic, spear phishing is targeted",
+      "Phishing requires no email"
+    ],
+    "answer": "Phishing is generic, spear phishing is targeted",
+    "explanation": "Spear phishing targets individuals with personalized attacks."
+  },
+  {
+    "id": 265,
+    "level": 3,
+    "question": "Which of these is an effective method to verify a suspicious email?",
+    "options": [
+      "Click on embedded links",
+      "Contact the sender using a trusted communication channel"
+    ],
+    "answer": "Contact the sender using a trusted communication channel",
+    "explanation": "Direct verification prevents falling victim to spoofed emails."
+  },
+  {
+    "id": 266,
+    "level": 3,
+    "question": "How can phishing be used to spread ransomware?",
+    "options": [
+      "By sending harmless attachments",
+      "By delivering malicious attachments or links that install ransomware"
+    ],
+    "answer": "By delivering malicious attachments or links that install ransomware",
+    "explanation": "Phishing emails are common ransomware infection vectors."
+  },
+  {
+    "id": 267,
+    "level": 3,
+    "question": "What is ‘smishing’?",
+    "options": [
+      "Phishing via SMS or text messages",
+      "Phishing via phone calls"
+    ],
+    "answer": "Phishing via SMS or text messages",
+    "explanation": "Smishing uses texts to lure victims into revealing info."
+  },
+  {
+    "id": 268,
+    "level": 3,
+    "question": "What is the best way to handle unsolicited emails requesting personal info?",
+    "options": [
+      "Reply with your info",
+      "Do not reply and report the email as phishing"
+    ],
+    "answer": "Do not reply and report the email as phishing",
+    "explanation": "Ignoring and reporting helps reduce phishing success."
+  },
+  {
+    "id": 269,
+    "level": 3,
+    "question": "What is the role of DKIM in email security?",
+    "options": [
+      "Encrypts email content",
+      "Verifies email integrity and sender authenticity via cryptographic signature"
+    ],
+    "answer": "Verifies email integrity and sender authenticity via cryptographic signature",
+    "explanation": "DKIM helps detect email tampering and spoofing."
+  },
+  {
+    "id": 270,
+    "level": 3,
+    "question": "Why should you avoid entering credentials on websites accessed from suspicious email links?",
+    "options": [
+      "They might be slow",
+      "They could be phishing sites designed to steal your credentials"
+    ],
+    "answer": "They could be phishing sites designed to steal your credentials",
+    "explanation": "Always verify URLs before entering sensitive info."
+  }
+]
+
+
+
+
+
+
+
+
+
